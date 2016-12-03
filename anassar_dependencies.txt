@@ -1,0 +1,8 @@
+
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
+sudo apt-get install --no-install-recommends libboost-all-dev
+sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+
+source /opt/intel/mkl/bin/mklvars.sh intel64
+echo "export LD_LIBRARY_PATH=/opt/intel/compilers_and_libraries/linux/lib/intel64_lin:${LD_LIBRARY_PATH}" >> ~/.bashrc
+source ~/.bashrc
